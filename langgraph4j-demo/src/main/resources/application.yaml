@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+openai:
+  api-key: ${OPENAI_API_KEY:demo-key}
+  model-name: gpt-4o-mini
+  temperature: 0.0
+
+logging:
+  level:
+    com.sas.agents.triage: INFO
+    org.bsc.langgraph4j: INFO
